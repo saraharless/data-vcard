@@ -1,0 +1,11 @@
+body {
+  font-family: 'Slabo 27px', serif;
+}
+
+.fullname {
+  background-color: #1D1D1D;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-weight: lighter;
+}
