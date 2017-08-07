@@ -1,11 +1,69 @@
 body {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  color: #CCCCCC;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  line-height: 1.8em;
+
 }
 
 .fullname {
   background-color: #1D1D1D;
   color: white;
-  margin: 0;
   text-align: center;
   font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  margin: auto;
+  height: 100px;
+  font-weight: lighter;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  font-size: 40px;
+}
+
+.story p {
+  width: 300px;
+  font-size: 20px;
+}
+
+img {
+  height: 120px;
+  float: right;
+  margin-top: -160px;
+}
+
+.story {
+  width: 500px;
+  margin-left: 20px;
+}
+
+.basics {
+  width: 30%;
+  padding-left: 10%;
+}
+
+p {
+  border-left: solid 1px #CCCCCC;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.key {
+  color: #64D9A6;
 }
